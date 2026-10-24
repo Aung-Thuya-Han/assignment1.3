@@ -4,7 +4,9 @@ public class Binary {
         int decimalNumber = 0;
 
         for (int i = 0; i < binaryNumber.length(); i++) {
+
             char bit = binaryNumber.charAt(i);
+
             decimalNumber = decimalNumber * 2;
 
             if (bit == '1') {
